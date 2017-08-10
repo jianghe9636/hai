@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/hzw.css"/>
+    <!--[if It IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航条-->
+<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="myCollapse" class="navbar-collapse collapse">
+            <!--下拉菜单-->
+            <div class="dropdown navbar-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    海贼势力
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">七武海</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">四皇</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">超新星</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">普通海贼</a></li>
+                </ul>
+            </div>
+            <div class="dropdown navbar-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    海军人物
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">赤犬大将</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">青雉大将</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">黄猿大将</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">战国元帅</a></li>
+                </ul>
+            </div>
+            <div class="dropdown navbar-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    草帽海贼团战力
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">路飞</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">索隆</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">山治</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">乌索普</a></li>
+                </ul>
+            </div>
+            <!--登录导航-->
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="#">海米</a></li>
+               <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">登录</a>
+                   <div class="dropdown-menu">
+                       <div class="panel panel-default">
+                           <div class="panel-body">
+                               <h3>登录</h3>
+                               <form>
+                                   <div class="form-group">
+                                       <input type="text" class="form-control" placeholder="用户名"/>
+                                   </div>
+                                   <div class="form-group">
+                                       <input type="password" class="form-control" placeholder="密码"/>
+                                   </div>
+                                   <button class="btn btn-primary">登录</button>
+                               </form>
+                           </div>
+                       </div>
+                   </div>
+               </li>
+            </ul>
+            <!--搜索-->
+            <form class="navbar-form navbar-right">
+                <a href="#" class="glyphicon glyphicon-search">搜索</a>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="search..."/>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--主体-->
+<div class="container" id="main">
+    <div class="row">
+        <div class="col-xs-12"><h2>欢迎来到海贼王世界</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+        <div class="carousel slide" data-ride="carousel" data-interval="3000" id="my">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/1.jpg">
+                    <div class="carousel-caption">
+                        <h2>兄弟之情</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/2.jpg">
+                    <div class="carousel-caption">
+                        <h2>路宝的战斗团队</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/3.jpg">
+                    <div class="carousel-caption">
+                        <h2>路宝的傻萌团队</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/4.jpg">
+                    <div class="carousel-caption">
+                        <h2>霸气的路飞</h2>
+                    </div>
+                </div>
+            </div>
+            <a href="#my" class="carousel-control left" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#my" class="carousel-control right" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <ul class="carousel-indicators">
+                <li data-target="#my" data-slide-to="0" class="active"></li>
+                <li data-target="#my" data-slide-to="1"></li>
+                <li data-target="#my" data-slide-to="2"></li>
+                <li data-target="#my" data-slide-to="3"></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-xs-12">
+            <img src="img/66.jpg" class="img-responsive"/>
+            <div class="img-title">
+                <h2>路飞的哥哥——艾斯</h2>
+                <p>艾斯是路飞小时的玩伴，因为从小就在一起长大，关系非常好，他们就结拜成了兄弟。
+                    艾斯大一点，所以艾斯是哥哥。在顶上战争时，艾斯为救路飞而去世！</p>
+                <a href="#" class="btn btn-info">
+                    了解艾斯的一生
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="img/5.jpg">
+                    <!--半透明，遮罩层-->
+                    <div class="half-mask">
+                        <h4>白胡子</h4>
+                        <p>白胡子被称为是四皇之首，对艾斯有救命之恩，再知道艾斯的悲惨的身世
+                            后，就决定收他为自己的干儿子，给予他无限的父爱，让艾斯有了一个大家庭。</p>
+                        <p>
+                            <a href="#">了解更多关于白胡子的事迹</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-12 pic2">
+                    <img class="img-responsive" src="img/6.jpg">
+                    <div class="half-mask">
+                        <h4>香克斯</h4>
+                        <p>路飞的救命恩人，是路飞的指路人，小时候曾经从海王口中救回了路飞，也因此断了右臂。
+                        路飞十分的崇拜他，想要追随香克斯的脚步为此当上了海贼。</p>
+                        <p>
+                            <a href="#">了解更多关于香克斯的事迹</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="media">
+                <div class="media-left">
+                    <img src="img/7.jpg" alt=""/>
+                </div>
+                <div class="media-body">
+                    <p>他们有的是路飞的救命恩人，有的是路飞的师傅，有的是路飞
+                        的亲人，还有的是路飞的指路人！</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="media">
+                <div class="media-left">
+                    <img src="img/8.jpg" alt=""/>
+                </div>
+                <div class="media-body">
+                    <p>它是路飞团队的吉祥物，也是他们队伍的医生，虽然它很胆小，但是为了伙伴
+                    他也为义不容辞的前进！</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="media">
+                <div class="media-left">
+                    <img src="img/9.jpg" alt=""/>
+                </div>
+                <div class="media-body">
+                    <p>他是路飞团队的音乐家，虽然平常感觉不靠谱，但是关键时刻他还是很靠谱的！</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="media">
+                <div class="media-left">
+                    <img src="img/10.jpg" alt=""/>
+                </div>
+                <div class="media-body">
+                    <p>他起初因为胆小无能被其他人称为“骗人步”，
+                        后来努力让自己变得更强，现在已是不可缺少的战力！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="accordion" class="panel-group">
+                <!--1、面板1-->
+                <div class="panel panel-success">
+                    <!--1、面板头部-->
+                    <div class="panel-heading">
+                        <a href="#c01" data-toggle="collapse" data-parent="#accordion">
+                            霸气
+                        </a>
+                    </div>
+                    <!--2、panel-collapse-->
+                    <div class="panel-collapse collapse" id="c01">
+                        <div class="panel-body">
+                           在海贼王的世界里，有很多种实力的展示，像恶魔果实的力量，像体术的力量，
+                            还有一种最厉害的力量叫做“霸气”；但是这种力量掌握的人不多，能掌握这种
+                            力量的都是十分厉害的大人物！
+                        </div>
+                    </div>
+                </div>
+                <!--2、面板2-->
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <a href="#c02" data-toggle="collapse" data-parent="#accordion">武器</a>
+                    </div>
+                    <div class="panel-collapse collapse" id="c02">
+                        <div class="panel-body">
+                            在海贼王的世界中，也是有很多人是靠着武器战斗的。比如路飞团队的副船长--索隆，
+                            他就是靠剑术来战斗的；他佩戴了三把名剑，分别是：和道一文字、秋水、鬼泣！
+                        </div>
+                    </div>
+                </div>
+                <!--3、面板3-->
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <a href="#c03" data-toggle="collapse" data-parent="#accordion">D之一族</a>
+                    </div>
+                    <div class="panel-collapse collapse" id="c03">
+                        <div class="panel-body">
+                            在海贼王的世界中，有许多家族一般的存在。像堂吉诃德家族，各个海贼团；但是
+                            在这其中有一个十分强大的家族，它就是D之家族，而我们的路飞就是来自这个家族！
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>海贼王的信仰</h2>
+            <h3>海贼王是一部讲述一群伙伴在大海上冒险的故事，他们的友情和经历都在冒险中一步步升华了，他们
+            见识和实力也随着冒险的进行得到了很大的提高。这是一部青春励志动漫，也是一部十分感人的动漫！</h3>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

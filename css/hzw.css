@@ -1,0 +1,100 @@
+body{
+    background-color:#ea8631;
+}
+.navbar-default{
+    background-color: #1cfff2;
+}
+.panel-default{
+    width:300px;
+}
+.dropdown-toggle{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px 0 15px;
+    background-color: #19d6ce;
+    color: #fff;
+    margin-left:15px;
+}
+.dropdown-menu{
+    background-color:#19d6ce;
+}
+.navbar-brand{
+    display: block;
+    width:125px;
+    height:50px;
+    background: url(../img/logo.jpg) no-repeat;
+    margin-top:3%;
+}
+#nav ul.nav>li>a{
+    background-color: #19d6ce;
+}
+#nav ul.nav>li.dropdown>a:hover{
+    background-color: #19d6ce;
+}
+#my .carousel-inner .item img{
+    width:100%;
+}
+#main{
+    margin-top:10%;
+}
+#main>div{
+    margin-top:10px;
+}
+#main div.img-title {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    width: 90%;
+    color:#fff;
+}
+
+#main div.col-md-12.col-sm-6.col-xs-12 {
+    overflow: hidden;
+}
+#main div.half-mask {
+    /*宽度，高度，背景颜色(透明)，绝对定位及位置，过渡*/
+    width: 90.2%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 85%;
+    left: 15px;
+    transition: top 300ms;
+    color:#fff;
+}
+#main div.half-mask:hover {
+    top: 0px;
+}
+@media screen and (max-width: 767px) {
+    #main div.img-title {
+        position: static;
+        margin-bottom: 10px;
+    }
+    #main div.half-mask{
+        width:85%;
+    }
+    #nav ul.nav>li>a{
+        margin-left:15px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+    #main div.half-mask{
+        width:92%;
+    }
+}
+@media screen and (min-width:992px){
+    #main div.pic2{
+        margin-top:69px;
+    }
+}
+#main div.media{
+    background-color:#00ff00;
+    margin-bottom:10px;
+}
+#footer{
+    background-color:#1b6d85;
+}
+#footer h2{
+    text-align: center;
+}
